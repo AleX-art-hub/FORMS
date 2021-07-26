@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=\, initial-scale=1.0">
+   <title>HTML теги. ФОРМЫ</title>
+   <link rel="stylesheet" href="./CSS/cstyle.css">
+</head>
+   <body>
+      <form action="#" method="get">
+         <div>
+            <p>Имя</p>
+            <input tabindex="1" type="text" name="UserName" value="">
+         </div>
+         <div>
+            <p>Пароль</p>
+            <input tabindex="2" type="password" name="UserPass" value="">
+         </div>
+         <div>
+            <p>Телефон</p>
+            <input tabindex="3" type="tel" name="UserNumber" value="">
+         </div>
+         <div>
+            <p>Пол</p>
+            <div><input tabindex="4" checked type="radio" name="Human" value="Male">Мужской</div>
+            <div><input tabindex="4" type="radio" name="Human" value="Female">Женский</div>
+         </div>
+         <div>
+            <p>Имущество</p>
+            <div><input tabindex="5" checked type="checkbox" name="Bicycle" value="yes">Велик</div>
+            <div><input tabindex="6" type="checkbox" name="Car" value="yes">Машина</div>
+            <div><input tabindex="7" disabled type="checkbox" name="House" value="yes">Квартира</div>
+         </div>
+         <div>
+            <p>Дополнительна информация</p>
+            <textarea tabindex="8" name="text"></textarea>
+         </div>
+         <div>
+            <p>Прикрепить фото</p>
+            <div><input tabindex="9" type="file" name="photo" value=""></div>
+         </div>
+         <div>
+            <p>Любимы цвет</p>
+            <div>
+               <select tabindex="10" name="colors">
+                  <option value="yellow">Желтый</option>
+                  <option value="red">Красный</option>
+                  <option value="blue">Синий</option>
+                  <option value="brown">Коричневый</option>
+                  <option value="violet">Фиолетовый</option>
+                  <option value="black">Черный</option>
+               </select>
+            </div>
+         </div>
+         <div>
+            <p>Действия</p>
+            <div>
+               <button tabindex="11" type="submit">Отправить</button>
+               <button tabindex="12" type="reset">Очистить</button>
+            </div>
+         </div>
+      </form>
+   </body>
+</html>
+<!-- <form action="#" method="post" enctype="multipart/form-data"></form>
+      <div>
+         <input tabindex="1" placeholder="Логин" type="text" name="UserName" value="">
+      </div>
+      <div>
+         <input placeholder="Пароль" type="password" name="UserPass" value="">
+      </div>
+      <div>
+         <p><input tabindex="2" checked type="radio" name="beer" value="lager">Светлое</p>
+         <p><input tabindex="2" type="radio" name="beer" value="Dark">Темное</p>
+      </div>
+      <br>
+      <div>
+         <p><input type="radio" name="beer2" value="lager">Светлое</p>
+         <p><input checked type="radio" name="beer2" value="Dark">Темное</p> <!-- checkeded это по умолчанию-->
+      <!-- </div>
+      <br>
+      <div>
+         <p><input type="checkbox" name="car" value="yes">Наличие авто</p>
+      </div>
+      <br>
+      <div>
+         <p><input type="file" name="photo" value=""></p>
+      </div>
+      <br>
+      <div>
+         <textarea name="text"></textarea>
+      </div>
+      <br>
+      <div>
+         <select name="colors">
+            <option value="red">Красный</option>
+            <option value="yellow">Желтый</option>
+            <option value="blue">Синий</option>
+         </select>
+         <select multiple name="colors">
+            <option value="red">Красный</option>
+            <option value="yellow">Желтый</option>
+            <option value="blue">Синий</option>
+         </select>
+      </div>
+      <br>
+      <div>
+         <select name="colors">
+            <option value="red">Красный</option>
+            <option value="yellow">Желтый</option>
+            <option selected value="blue">Синий</option> <!-- selected это по умолчанию-->
+         <!-- </select>
+      </div>
+      <br>
+      <button type="submit">Отправить</button><!-- submit отправит значения на сервер-->
+      <!-- <button type="reset">Очистить</button><!--reset очиститься вся форма  --> --> --> -->
